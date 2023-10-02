@@ -1,7 +1,7 @@
 
 body {
-    background-color: black;
-    color:white;
+    background-color: rgba(67, 7, 102, 0.904);
+    color:rgb(226, 226, 226);
     font-size: 18px;
     font-style: bold;
 }
@@ -45,13 +45,13 @@ body {
 
 .escola img {
 	width:75%;
-	margin-rigth: 100px;
+	margin-right: 100px;
  	margin-top: 50px; /* Espaço superior de 10 pixels */
         margin-bottom: 50px; /* Espaço inferior de 10 pixels */
 }
 
 .escola {
-	background-image: linear-gradient(BLACK,GREY);
+	background-image: linear-gradient(rgb(67, 7, 102, 0.904),rgb(0, 0, 0));
   	display: flex;
  	align-items: center; 
 	justify-content: center;
@@ -71,7 +71,7 @@ body {
 }
 
 .turma {
-	background-image: linear-gradient(grey,black);
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(67, 7, 102, 0.904));
   	display: flex;
  	align-items: center; 
 	justify-content: center;
@@ -79,5 +79,5 @@ body {
 
 .turmatxt{
 	width:550%;
-	margin-rigth: 10px;
+	margin-right: 10px;
 }
